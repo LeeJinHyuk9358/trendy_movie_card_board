@@ -4,7 +4,7 @@ import Detail from "./routes/Detail";
 
 function App() {
   return(
-    <Router>
+    <Router basename="/trendy_movie_card_board">
       <Routes>
         {/* 루트 경로 */}
         <Route path="/" element={<Home />} />
